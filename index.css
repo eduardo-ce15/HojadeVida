@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: snow;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color:whitesmoke;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+#menu-uno{
+    display: none;
+}
+header label{
+    float: right;
+    font-size: 28px;
+    margin: 6px 0;
+    cursor: pointer;
+}
+.contenedor .regresar{
+    text-decoration: none;
+    float: left;
+    padding-top: 1px;
+    color: black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.8em;
+    text-shadow:1px 1px 1px black;
+}
+.icon-th-list{
+    color: black;
+    font-family: fantasy;
+    font-size: 2.2em;
+    margin-top: -0px;
+    text-shadow:1px 1px 1px red;
+}
+.menu{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    )
+    ,url(https://th.bing.com/th/id/OIP.o9eGAKsKrvSZaEeXKftE2gAAAA?pid=ImgDet&rs=1);
+    transition: all 0.5s;
+    transform: translateX(-100%);
+}
+#menu-uno:checked ~ .menu{
+    transform: translateX(0%);
+}
+header .contenedor{
+    display: table;
+}
+.menu a{
+    display: block;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em;
+    text-shadow: 1px 1px 2px black;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+
+}
+.menu a:hover{
+    background:  rgba(255,255,255,0.3);
+}
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+#imagen{
+    margin-top: 50px;
+    position: relative;
+}
+#imagen img{
+    width: 100%;
+    height: 100%;  
+}
+#imagen .contenedor-se{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+#imagen h2{
+    padding-top: 5px;
+    font-size: 35px;
+    text-shadow: 1px 1px 2px red;
+}
+
+.mi-vida{
+    text-decoration: underline 0.3em;
+    padding-bottom: 20px;
+}   
+#imagen p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 5px 2px white;
+}
+.medio{
+    margin: 10px;
+    background-color: snow;
+   
+}
+.medio .icon-download{
+    opacity: 0%; 
+    font-size: 72px;
+}
+.medio button:hover{
+    height: 110px;
+    width: 110px;
+    background-image: url(https://www.peimar.com/wp-content/uploads/2020/09/DOWNLOAD-02-1-200x200.png);
+}
+.medio .btn{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-image: url(https://th.bing.com/th/id/OIP.okQJfiWVZL9v2IRzpW04rwHaHa?pid=ImgDet&w=500&h=500&rs=1);
+    background-size: cover;
+    border: none;
+}
+.icono{
+    padding-top: 15px;
+    text-decoration: overline 0.2em;
+    text-align: center;   
+}
+.icono p{
+    padding-top: 6px;
+    font-family:fantasy;
+    font-size: 1.2em;
+}
+#imagenes{
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
+#imagenes h2{
+    font-size: 2.4em;
+    font-family:'Courier New', Courier, monospace;
+    color: wheat;
+}
+#imagenes .container{
+    padding: 50px 0px;
+}
+#imagenes p{
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    text-shadow:1px 3px 4px black;
+}
+#imagenes h3{
+    color: #fff;
+    margin-top: 0;
+    font-family:cursive;
+    font-size: 1.8em;
+    text-shadow:1px 3px 4px black;
+}
+#imagenes .carta{
+    background-position: center center ;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 30px;
+}
+.carta:first-child{
+    object-position: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://godigitallaagencia.com/wp-content/uploads/2020/06/web-developer.gif);
+    color: white;
+}
+.carta:nth-child(2){
+    object-position: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://i.giphy.com/media/l46Cy1rHbQ92uuLXa/source.gif);
+}
+.carta:nth-child(3){
+    object-position: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    )
+    ,url(https://innovartecnologias.com/wp-content/uploads/2020/06/dribbble-shot_6.gif);
+}
+
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 4px;
+}
+
+.copy{
+    font-size: 13px;
+    padding-top: 7px;
+}
+.contacto{
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+}
+.contacto a{
+    text-decoration: none;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+.contacto a:hover{
+    color:tomato;
+}
+h4{
+    font-family: monospace;
+    font-size: 1.5em;
+    padding-bottom: 7px;
+}
+  
+@media (min-width: 1080px){
+    .menu{
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        display: flex;
+        background: whitesmoke;
+    }
+    .menu a{
+        border: none;
+        color: black;
+    }
+    header label{
+        display: none;
+    }
+    .contenedor{
+        width: 1000px;
+    }
+    
+    
+}
+@media (min-width: 480px){
+   #imagen h2{
+    font-size: 40px;
+   }
+   #imagen p{
+    margin-top: 40px;
+   }
+}
+@media (min-width: 768px){
+    #imagen{
+        height: 340px;
+        overflow: hidden;
+    }
+    #imagen img{
+        height: auto;
+        margin-top: -100px;
+    }
+}

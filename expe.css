@@ -1,0 +1,254 @@
+#imagenes{
+     display: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(https://th.bing.com/th/id/R.1a4fcb4f3ee0c0ee1ae361f7bdea4400?rik=X4SRZqMkcBGw7w&pid=ImgRaw&r=0);
+}
+#circulos a{
+    font-size: 2em;
+    padding: 10px;
+    text-decoration: none;
+    color: wheat;
+}
+.lab{
+    margin-top: 50px;
+    position: relative;
+}
+.lab .conts{
+    text-align: center;
+}
+.conts h2{
+    font-size: 37px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2%;
+    text-shadow: 1px 10px 2px black;
+}
+.lab p{
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2%;
+    font-size: 1.2em;
+    text-shadow: 1px 7px 2px black;
+
+}
+
+#lo-soy .containers{
+    text-align: center;
+    padding: 150px 12px;
+}
+#circulos .btn{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-image: url(https://th.bing.com/th/id/OIP.9ox06v9VdYRI8nrC57XDtAHaHa?pid=ImgDet&rs=1);
+    background-size: cover;
+    border: none;
+    text-align: center;
+}
+.circulos-pri{
+    text-align: center;
+}
+#circulos h3{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    text-shadow: 1px 3px 2px yellow;
+}
+.circulos-pri p{
+    padding-top: 10px;
+    color: #fff;
+    text-shadow: 1px 2px 2px red;
+}
+#circulos .btns{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-image: url(https://th.bing.com/th/id/OIP.M5rQ8hu-w_eb3azLNZi1ogHaHa?pid=ImgDet&rs=1);
+    background-size: cover;
+    border: none;
+    text-align: center;
+
+}
+.circulos-seg{
+    text-align: center;
+}
+.circulos-seg p{
+    padding-top: 6px;
+    color: #fff;
+    text-shadow: 1px 2px 2px blue;
+}
+.yo{
+    padding-bottom: 5px;
+}
+#circulos{
+    background-color: rgba(0,0,0,0.6);
+    padding: 10px;
+    margin: 0;
+}
+.texto{
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+.texto h2{
+    padding-bottom: 15px;
+}
+@media (min-width: 720px){
+    #lo-soy .containers{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #lo-soy .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding: 0px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #lo-soy .img-containers{
+        background-image: url(https://mk0epmuaecomm7eqspek.kinstacdn.com/wp-content/uploads/2020/07/Features-of-Asset-Management-Software-300x259.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+        width: 300px;
+        border-radius: 10px;
+    }
+}
+
+#lo .containerse{
+    margin-top: -100px;
+    text-align: center;
+    padding: 10px 12px;
+}
+@media (min-width: 720px){
+    #lo .containerse{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #lo .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding: 0px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #lo .img-containerse{
+        background-image: url(https://blog.bettertechsoftware.com/wp-content/uploads/2016/11/img_02_powersales-1-400x222.png);
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+        width: 300px;
+        border-radius: 10px;
+    }
+}
+#soy .containerses{
+    text-align: center;
+    padding: 50px 12px;
+}
+.texto h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    text-shadow: 1px 4px 2px black;
+    font-size: 2em;
+}
+.texto p{
+    color: white;
+    font-size: 1.1em;
+}
+@media (min-width: 720px){
+    #soy .containerses{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #soy .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding: 0px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #soy .img-containerses{
+        background-image: url(https://miracomosehace.com/wp-content/uploads/2020/06/microsoft-excel-word.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+        width: 300px;
+        border-radius: 10px;
+    }
+   
+
+}
+@media (max-width: 719px){
+    #imagenes h3{
+        font-family: 'Courier New', Courier, monospace;
+        color: #fff;
+        text-shadow: 1px 4px 2px black;
+    }
+    #imagenes p{
+        font-size: 1.2em;
+    }
+    .lab{
+        padding-top: 50px;
+    }
+    #lo-soy{
+        display: none;
+    }
+    #lo{
+        display: none;
+    }
+    #soy{
+        display: none;
+    }
+   #imagenes{
+        display: flex;
+        margin-top: 5px;
+        background-color: transparent;
+   }
+   .carta:first-child{
+    object-position: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)
+    )
+    ,url(https://mk0epmuaecomm7eqspek.kinstacdn.com/wp-content/uploads/2020/07/Features-of-Asset-Management-Software-300x259.jpg);
+    color: white;
+}
+.carta:nth-child(2){
+    object-position: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)
+    )
+    ,url(https://blog.bettertechsoftware.com/wp-content/uploads/2016/11/img_02_powersales-1-400x222.png);
+    color: white;
+}
+.carta:nth-child(3){
+    background-size: cover;
+    object-position: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://miracomosehace.com/wp-content/uploads/2020/06/microsoft-excel-word.jpg);
+    color: white;
+}
+h5{
+    display: none;
+}   
+}

@@ -1,0 +1,77 @@
+body{
+    background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.4),
+      rgba(0,0,0,0.4)
+    ), url(https://i.pinimg.com/originals/d4/0e/77/d40e77d01948985546ce4cc7366909c1.jpg);
+  }
+  .contenedoro{
+    background-image: url(https://th.bing.com/th/id/R.e07f098e831cfe6f8c36c5b5b8ea6739?rik=IvlxqmjK3vZe7Q&pid=ImgRaw&r=0);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2em;
+    margin-top: 150px;
+    border-radius: 30px;
+  }
+  .formulario-registro {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .formulario-registro h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    margin-bottom: 7px;
+  }
+  
+  .formulario-registro label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .formulario-registro input {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.25em;
+    margin-bottom: 1em;
+  }
+  
+  .formulario-registro button {
+    display: block;
+    margin: 0 auto;
+    padding: 0.6em 8em;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .formulario-registro button:hover{
+    background-color: black;
+    color: white;
+    padding: 0.6em 7em;
+  }
+  
+
+
+
+  @media (max-width: 600px) {
+    .formulario-registro {
+      max-width: 100%;
+      padding: 0 1em;
+    }
+    .contenedoro{
+      margin-top: 250px;
+      max-width: 345px;
+    }
+    .formulario-registro button{
+      padding: 0.6em 3em;
+    }
+  }
+  

@@ -1,0 +1,150 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    
+    background-position: center;
+    font-family: Roboto sans-serif;
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1)
+    ), url(https://th.bing.com/th/id/R.bdba3733e47b986cd70b2191a21d16a8?rik=HrGFrwXAUJ4AIg&pid=ImgRaw&r=0);
+}
+h2{
+    color: #fff;
+    margin-top: 65px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    text-shadow: 2px 4px 2px blueviolet;
+}
+.contacto p{
+    font-size: 1.3em;
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+.mapa{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.mapa h2{
+    color: white;
+    font-family:cursive;
+    margin-bottom: 10px;
+    font-size: 1.7em;
+    text-shadow: 1px 3px 5px blue;
+
+}
+.mapa iframe{
+    border-radius: 20px;
+}
+.incons .ico{
+    text-align: center;
+    font-size: 4em;
+    text-shadow: none;
+}
+.incons{
+    text-align: center;
+    align-items: center;
+    padding: 1px;
+}
+.incons p{
+    font-family:fantasy;
+    font-size: 1.3em;
+    color: white;
+    text-shadow: 1px 4px 2px red;
+    padding: 10px;
+}
+.incons a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: white;
+    text-shadow: 1px 3px 5px black;
+}
+.incons a:hover{
+
+    color: yellow;
+}
+.incons .ico{
+    text-shadow: 1px 8px 2px black;
+}
+.circulos-pri{
+    text-align: center;
+}
+#circulos h3{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    text-shadow: 1px 3px 2px yellow;
+}
+.circulos-pri p{
+    padding-top: 10px;
+    color: #fff;
+    text-shadow: 1px 2px 2px red;
+}
+#circulos .btns{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-image: url(https://th.bing.com/th/id/OIP.M5rQ8hu-w_eb3azLNZi1ogHaHa?pid=ImgDet&rs=1);
+    background-size: cover;
+    border: none;
+    text-align: center;
+
+}
+.circulos-seg{
+    text-align: center;
+}
+.circulos-seg p{
+    padding-top: 6px;
+    color: #fff;
+    text-shadow: 1px 2px 2px blue;
+}
+.yo{
+    padding-bottom: 5px;
+}
+#circulos{
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px;
+    margin: 0;
+}
+#circulos .btn{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-image: url(https://th.bing.com/th/id/OIP.9ox06v9VdYRI8nrC57XDtAHaHa?pid=ImgDet&rs=1);
+    background-size: cover;
+    border: none;
+    text-align: center;
+}
+.circulos-pri{
+    text-align: center;
+}
+#circulos h3{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    text-shadow: 1px 3px 2px red;
+}
+#circulos a{
+    font-size: 2em;
+    padding: 10px;
+    text-decoration: none;
+    color: wheat;
+}
+@media (max-width: 720px){
+    .mapa{
+        background-color: rgba(0,0,0,0.4);
+        border-radius: 15px;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-bottom: 20px;
+    }
+}

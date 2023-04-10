@@ -139,12 +139,3 @@ h2{
     text-decoration: none;
     color: wheat;
 }
-@media (max-width: 720px){
-    .mapa{
-        background-color: rgba(0,0,0,0.4);
-        border-radius: 15px;
-        margin-left: 50px;
-        margin-right: 50px;
-        padding-bottom: 20px;
-    }
-}
